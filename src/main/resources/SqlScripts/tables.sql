@@ -3,9 +3,9 @@ create table superhuman(
 	alias varchar primary key,
 	firstName varchar,
 	lastName varchar,
-	originStory text,
-	align_id foreign key alignment(align_id),
-	team_id foreign key super_team(team_id)
+	originStory text
+	--align_id foreign key alignment(align_id),
+	--team_id foreign key super_team(team_id)
 );
 
 
