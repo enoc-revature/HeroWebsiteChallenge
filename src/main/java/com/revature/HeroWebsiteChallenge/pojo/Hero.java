@@ -11,12 +11,36 @@ public class Hero {
 
 	@Id
 	@Column
-	public String alias;
+	private String alias;
 
 	@Column
-	public String firstName;
+	private String firstName;
 	
 	@Column
-	public String lastName;
+	private String lastName;
+
+	public String getAlias() {
+		return alias;
+	}
+
+	public void setAlias(String alias) {
+		this.alias = alias;
+	}
+
+	public String getFirstName() {
+		return firstName;
+	}
+
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+
+	public String getLastName() {
+		return lastName;
+	}
+
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
 	
 }

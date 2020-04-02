@@ -1,0 +1,19 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: hero-website-challenge
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://herowebsitechallenge.cmjwxg0yc5r7.us-east-1.rds.amazonaws.com:5432/postgres?
+    username: herochallenge
+    password: projx345346
+    driverClassName: org.postgresql.Driver
+    
+
