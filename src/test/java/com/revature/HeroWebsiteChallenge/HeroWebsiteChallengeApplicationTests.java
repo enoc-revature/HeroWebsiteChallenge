@@ -1,4 +1,4 @@
-package com.revature.UserService;
+package com.revature.HeroWebsiteChallenge;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,4 +1,4 @@
-package com.revature.UserService;
+package com.revature.HeroWebsiteChallenge;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
