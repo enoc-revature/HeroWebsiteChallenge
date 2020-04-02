@@ -23,5 +23,6 @@ drop table if exists super_team;
 create table super_team(
 	team_id serial primary key,
 	team_name varchar,
-	hero_id numeric foreign key superhuman(hero_id)
+	hero_id numeric foreign key superhuman(hero_id),
+	align_id numeric foreign key alignment(align_id)
 );
