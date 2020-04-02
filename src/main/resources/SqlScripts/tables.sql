@@ -1,9 +1,9 @@
-drop if exists superhuman;
+drop table if exists superhuman;
 create table superhuman(
 	hero_id serial primary key,
 	firstName varchar,
 	lastName varchar,
-	alias,
+	alias varchar,
 	originStory text,
 	align_id foreign key alignment(align_id),
 	team_id foreign key super_team(team_id)
@@ -11,7 +11,7 @@ create table superhuman(
 
 
 -- Enumeration Table
-drop if exists alignment;
+drop table if exists alignment;
 create table alignment(
 	align_id numeric primary key;
 	kind varchar;
@@ -19,7 +19,7 @@ create table alignment(
 );
 
 
-drop if exists super_team;
+drop table if exists super_team;
 create table super_team(
 	team_id serial primary key,
 	team_name varchar,
