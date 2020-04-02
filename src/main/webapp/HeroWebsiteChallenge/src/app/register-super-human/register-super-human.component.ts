@@ -23,7 +23,7 @@ export class RegisterSuperHumanComponent implements OnInit {
   //   alias: new FormControl()
   // });
 
-  // registerHero() {
+  registerHero() {
   //   this.rshs.putHero(this.newHeroForm.get('firstnameId').value,
   //                     this.newHeroForm.get('lastnameId').value,
   //                     this.newHeroForm.get('aliasId').value);
@@ -31,5 +31,5 @@ export class RegisterSuperHumanComponent implements OnInit {
   //   console.log(this.newHeroForm.get('firstnameId').value);
   //   console.log(this.newHeroForm.get('lastnameId').value);
   //   console.log(this.newHeroForm.get('aliasId').value);
-  //   }
+    }
 }

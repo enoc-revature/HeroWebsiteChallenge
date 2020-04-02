@@ -1,8 +1,13 @@
+<div class="container">
 <h1>Register a new super human</h1>
 <br><br>
 
-<form [formGroup]='newHeroForm' (ngSubmit)='registerHero()'>
-    <input id='aliasId' placeholder="Alias">
-    <input id='firstId' placeholder="First Name">
-    <input id='lastId' placeholder="Last Name">
+<form [formGroup]='newHeroForm' (ngSubmit)='registerHero()' class="formGroup">
+    <input id='aliasId' placeholder="Alias" class="form-control">
+    <input id='firstId' placeholder="First Name" class="form-control">
+    <input id='lastId' placeholder="Last Name" class="form-control">
+    <input id='originId' placeholder="Origin Story" class="form-control">
+    <br>
+    <button id='submitBtn' (click)="registerHero()" class="btn btn-primary">Submit</button>
 </form>
+</div>
