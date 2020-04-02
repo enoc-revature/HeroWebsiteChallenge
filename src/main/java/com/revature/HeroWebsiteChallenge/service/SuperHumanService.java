@@ -19,6 +19,7 @@ public class SuperHumanService {
 	}
 	
 	public List<Hero> getHeroes(){
+		System.out.println("getHeroes()");
 		return shr.findAll();
 	}
 
