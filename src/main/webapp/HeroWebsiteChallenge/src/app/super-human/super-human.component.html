@@ -7,9 +7,10 @@
         <th>Team</th>
     </thead>
     <tbody>
-        <tr>
-            <td>One-Punch</td>
-            <td>NONE</td>
+        <tr *ngFor='let hero of heroes'>
+            <td>{{hero.firstname}}</td>
+            <td>{{hero.lastname}}</td>
+            <td>{{hero.alias}}</td>
         </tr>
     </tbody>
 </table>
