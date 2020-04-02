@@ -1,2 +1,2 @@
 # HeroWebsiteChallenge
-Spring Boot
+This is a Spring Boot project for a timed coding challenge.
